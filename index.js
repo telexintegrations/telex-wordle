@@ -42,18 +42,6 @@ const integrationSpec = {
 			},
 		],
 		target_url: "https://telex-wordle.vercel.app/webhook",
-		endpoints: [
-			{
-				path: "/webhook",
-				method: "POST",
-				description: "Default endpoint",
-			},
-			{
-				path: "/test",
-				method: "POST",
-				description: "test endpoint",
-			},
-		],
 	},
 };
 
